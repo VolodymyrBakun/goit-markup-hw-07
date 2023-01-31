@@ -1,0 +1,47 @@
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1158px;
+    }
+
+    .about-list {
+        margin: 0 auto;
+    }
+
+    .about-item {
+        flex-basis: calc((100% - 72px) / 4);
+        
+      }
+      
+      .about-item::before { 
+         content: "";
+        display: block;
+        height: 112px;
+        background-color: var(--Light-color);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 8px;
+      }
+      
+      .icon-antenna::before {
+        background-image: url(../images/antenna.svg);
+      }
+      .icon-clock::before {
+        background-image: url(../images/clock.svg);
+      }
+      .icon-pc::before {
+        background-image: url(../images/diagram.svg);
+      }
+      .icon-astronaut::before {
+        background-image: url(../images/astronaut.svg);
+      }
+      
+      .about-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--Dark-color);
+        margin-bottom: 8px;
+      }
+
+  }
