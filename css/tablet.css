@@ -17,4 +17,15 @@
       .about-item {
         width: calc((100% - 24px) / 2);
       }
+
+      /* -------------------Section TEAM----------------- */
+      .team-list {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        row-gap: 64px;
+        column-gap: 24px;
+      }
+
   }

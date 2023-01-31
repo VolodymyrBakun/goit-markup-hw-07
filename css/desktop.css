@@ -2,9 +2,15 @@
     .container {
       max-width: 1158px;
     }
-
+    .section {
+        padding-bottom: 120px;
+      }
 
     /* <!------------------ Section about ---------------------> */
+    .about {
+        padding-top: 120px;
+      }
+    
     .about-list {
         max-width: 1128px;
         margin: 0 auto;
@@ -49,7 +55,7 @@
 
       /* <!-- Section Products --> */
       .products {
-        display: contents;
+        display: block;
       }
       .products-title {
         font-weight: 600;
@@ -68,5 +74,16 @@
       .products-item {
         flex-basis: calc((100% - 48px) / 3);
       }
+
+/* -------------------Section TEAM----------------- */
+.team {
+
+    padding-top: 120px;
+  }
+.team-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
 
   }
