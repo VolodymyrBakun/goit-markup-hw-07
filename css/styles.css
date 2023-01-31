@@ -319,6 +319,7 @@ color: var(--Text-color);
 /* -------------------Section PRODUCTS----------------- */
 
 .products {
+  display: none;
 }
 .products-title {
   font-weight: 600;

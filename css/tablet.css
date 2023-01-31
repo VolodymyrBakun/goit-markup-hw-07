@@ -3,6 +3,8 @@
       max-width: 768px;
     }
 
+
+    /* <!------------------ Section about ---------------------> */
     .about-list {
         display: flex;
         flex-wrap: wrap;
