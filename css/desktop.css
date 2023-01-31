@@ -86,4 +86,15 @@
     gap: 24px;
   }
 
+/* ------------------Section CUSTOMER---------------- */
+.customer-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+
+
+
   }

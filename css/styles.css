@@ -429,7 +429,7 @@ color: var(--Text-color);
 }
 /* ------------------Section CUSTOMER---------------- */
 .customer {
-  padding-top: 130px;
+  padding-top: 96px;
 }
 .customer-wrap {
 }
@@ -445,12 +445,15 @@ color: var(--Text-color);
   margin-bottom: 72px;
 }
 .customer-list {
-  display: flex;
-  gap: 24px;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  /* column-gap: 16px; */
+  /* row-gap: 16px; */
 }
 
 .customer-item {
-  width: calc((100% - 120px) / 6);
+  width: 190px;
   height: 88px;
 }
 .customer-link {

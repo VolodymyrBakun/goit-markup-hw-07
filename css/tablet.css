@@ -28,4 +28,15 @@
         column-gap: 24px;
       }
 
+/* ------------------Section CUSTOMER---------------- */
+.customer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .customer-item {
+    width: 168px;
+
   }
