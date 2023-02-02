@@ -3,6 +3,18 @@
     max-width: 768px;
   }
 
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+  .header-contact {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;}
+    .menu-open {
+        display: none;}
+
+
   /* -------------------Section HERO----------------- */
   .hero {
     background-image: linear-gradient(

@@ -6,6 +6,15 @@
         padding-bottom: 120px;
       }
 
+      .header-list {
+        display: flex;
+        gap: 40px;
+      }
+      .header-contact {
+        display: flex;
+        gap: 40px;
+        margin-left: auto;}
+
 /* -------------------Section HERO----------------- */
 .hero {
         
