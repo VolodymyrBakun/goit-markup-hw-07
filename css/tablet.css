@@ -37,6 +37,60 @@
     row-gap: 72px;
   }
   .customer-item {
-    width: 168px;
+    width: 168px;}
 
+    /* -------------------Section FOOTER----------------- */
+    .footer {
+        padding-left: 108px;
+    }
+    
+    
+    
+    .footer-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+       
+        
+      }
+
+      .footer-logotext-wrap {
+        width: 264px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .footer-logo {
+        display: block;
+      }
+
+      .footer-soc-media {
+        margin-top: 0;
+        margin-left: 0;
+      }
+
+      .footer-soc-title {
+        text-align: unset;
+      }
+
+      .footer-form-wrap {
+        width: 100%;
+      }
+
+    .footer-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+      }
+
+      .footer-input {
+        width: 262px;
+        /* padding: 0; */
+      }
+
+      .footer-email-btn {
+        margin-top: 0;
+        margin-left: 0;
+      }
   }

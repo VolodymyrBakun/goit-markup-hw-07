@@ -90,11 +90,34 @@
 .customer-list {
     display: flex;
     flex-wrap: nowrap;
-    flex-basis: 100%;
-    column-gap: 16px;
-    row-gap: 16px;
+    
+    column-gap: 24px;
+    row-gap: 0;
   }
 
+/* -------------------Section FOOTER----------------- */
+
+.footer {
+    padding-left: 0;}
+
+.footer-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    /* margin-left: 0;
+    margin-right: 0; */
+    /* justify-content: center; */
+}
+
+.footer-soc-media {
+    margin-left: 120px;
+    margin-right: 80px;
+}
+
+.footer-form-wrap {
+    width: 453px;
+    margin-top: 0;
+  }
 
 
   }
