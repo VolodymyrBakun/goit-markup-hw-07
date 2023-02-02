@@ -1,12 +1,12 @@
 @media screen and (min-width: 480px) {
     
-    .customer-list {
+    /* .customer-list {
         display: flex;
         flex-wrap: wrap;
        
         column-gap: 16px;
         row-gap: 72px;
-      }
+      } */
 
 }
 

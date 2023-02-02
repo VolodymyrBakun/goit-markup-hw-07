@@ -567,11 +567,11 @@ color: var(--Text-color);
   margin-bottom: 72px;
 }
 .customer-list {
-  /* display: flex;
+  display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
-  /* column-gap: 16px; */
-  /* row-gap: 16px; */
+  column-gap: 16px;
+  row-gap: 72px;
 }
 
 .customer-item {
