@@ -9,11 +9,14 @@
   }
   .header-contact {
     display: flex;
-    gap: 40px;
-    margin-left: auto;}
-    .menu-open {
-        display: none;}
-
+    flex-wrap: wrap;
+    gap: 0;
+    margin-left: 118px;
+    margin-right: 0;
+  }
+  .menu-open {
+    display: none;
+  }
 
   /* -------------------Section HERO----------------- */
   .hero {
@@ -47,8 +50,8 @@
     max-width: 500px;
   }
   .hero-btn {
-    margin: 40px auto 0 auto;}
-
+    margin: 40px auto 0 auto;
+  }
 
   /* <!------------------ Section about ---------------------> */
   .about-list {
