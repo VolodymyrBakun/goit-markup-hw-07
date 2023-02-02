@@ -3,6 +3,10 @@
     max-width: 768px;
   }
 
+  .header {
+    padding-top: 0;
+    padding-bottom: 0;}
+
   .header-list {
     display: flex;
     gap: 40px;
@@ -10,10 +14,24 @@
   .header-contact {
     display: flex;
     flex-wrap: wrap;
-    gap: 0;
+    gap: 4px;
     margin-left: 118px;
     margin-right: 0;
+    padding-top: 24px;
+    padding-bottom: 10px;
   }
+
+  .header-contact-item {
+    height: 16px;
+  }
+
+.header-contact-link {
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+}
+
+
   .menu-open {
     display: none;
   }
@@ -67,7 +85,12 @@
     width: calc((100% - 24px) / 2);
   }
 
+  .about-title {
+    text-align:left;}
+
   /* -------------------Section TEAM----------------- */
+  .team {
+    padding-bottom: 104px;}
   .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -91,13 +114,14 @@
 
   /* -------------------Section FOOTER----------------- */
   .footer {
-    padding-left: 108px;
+    
   }
 
   .footer-wrap {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+    padding-left: 108px;
   }
 
   .footer-logotext-wrap {
