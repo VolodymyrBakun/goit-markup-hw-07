@@ -1,35 +1,69 @@
 @media screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
+  .container {
+    max-width: 768px;
+  }
+
+  /* -------------------Section HERO----------------- */
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tablet.jpg);
+    padding-top: 108px;
+    padding-bottom: 108px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tablet-2x.jpg);
     }
+  }
+
+  .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    text-transform: none;
+    max-width: 500px;
+  }
+  .hero-btn {
+    margin: 40px auto 0 auto;}
 
 
-    /* <!------------------ Section about ---------------------> */
-    .about-list {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 72px;
-        max-width: 736px;
-        /* flex-basis: calc((100% - 24px) / 2); */
-      }
+  /* <!------------------ Section about ---------------------> */
+  .about-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    max-width: 736px;
+    /* flex-basis: calc((100% - 24px) / 2); */
+  }
 
-      .about-item {
-        width: calc((100% - 24px) / 2);
-      }
+  .about-item {
+    width: calc((100% - 24px) / 2);
+  }
 
-      /* -------------------Section TEAM----------------- */
-      .team-list {
-        display: flex;
-        flex-wrap: wrap;
+  /* -------------------Section TEAM----------------- */
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
 
-        justify-content: center;
-        row-gap: 64px;
-        column-gap: 24px;
-      }
+    justify-content: center;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
 
-/* ------------------Section CUSTOMER---------------- */
-.customer-list {
+  /* ------------------Section CUSTOMER---------------- */
+  .customer-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,60 +71,57 @@
     row-gap: 72px;
   }
   .customer-item {
-    width: 168px;}
-
-    /* -------------------Section FOOTER----------------- */
-    .footer {
-        padding-left: 108px;
-    }
-    
-    
-    
-    .footer-wrap {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 24px;
-       
-        
-      }
-
-      .footer-logotext-wrap {
-        width: 264px;
-        margin-left: 0;
-        margin-right: 0;
-      }
-
-      .footer-logo {
-        display: block;
-      }
-
-      .footer-soc-media {
-        margin-top: 0;
-        margin-left: 0;
-      }
-
-      .footer-soc-title {
-        text-align: unset;
-      }
-
-      .footer-form-wrap {
-        width: 100%;
-      }
-
-    .footer-form {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 24px;
-      }
-
-      .footer-input {
-        width: 262px;
-        /* padding: 0; */
-      }
-
-      .footer-email-btn {
-        margin-top: 0;
-        margin-left: 0;
-      }
+    width: 168px;
   }
+
+  /* -------------------Section FOOTER----------------- */
+  .footer {
+    padding-left: 108px;
+  }
+
+  .footer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .footer-logotext-wrap {
+    width: 264px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer-logo {
+    display: block;
+  }
+
+  .footer-soc-media {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .footer-soc-title {
+    text-align: unset;
+  }
+
+  .footer-form-wrap {
+    width: 100%;
+  }
+
+  .footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .footer-input {
+    width: 262px;
+    /* padding: 0; */
+  }
+
+  .footer-email-btn {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
